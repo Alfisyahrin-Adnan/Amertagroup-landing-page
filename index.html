@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amerta Group - Solusi Keuangan Terpercaya untuk Pertanian Indonesia. Bermitra dengan Bank Tani.">
+  <title>Amerta Group | Solusi Keuangan Pertanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Amerta<strong>Group</strong></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#kalkulator">Kalkulator</a></li>
+        <li><a href="#mitra">Mitra</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="btn btn-primary nav-cta">Konsultasi Gratis</a>
+      <button class="dark-toggle" id="dark-toggle" aria-label="Toggle dark mode" title="Ganti tema">
+        <span class="dark-toggle-icon">🌙</span>
+      </button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-badge">🤝 Bermitra Resmi dengan Bank Tani</div>
+      <h1 class="hero-title">Solusi Keuangan<br><span class="highlight">Pertanian Indonesia</span></h1>
+      <p class="hero-desc">
+        Amerta Group hadir untuk membantu petani dan pelaku agribisnis Indonesia mendapatkan akses pembiayaan yang mudah, cepat, dan terpercaya.
+      </p>
+      <div class="hero-cta">
+        <a href="#kalkulator" class="btn btn-primary">Hitung Pinjaman</a>
+        <a href="#layanan" class="btn btn-outline">Lihat Layanan</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="12500">0</span>
+          <span class="stat-label">Nasabah Aktif</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Tingkat Kepuasan</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Tahun Pengalaman</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LAYANAN ===== -->
+  <section class="section" id="layanan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Layanan Kami</span>
+        <h2 class="section-title">Produk Keuangan untuk Agribisnis</h2>
+        <p class="section-desc">Dirancang khusus untuk kebutuhan petani dan pelaku usaha pertanian di seluruh Indonesia.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🌾</div>
+          <h3>Pembiayaan Modal Tani</h3>
+          <p>Akses modal kerja untuk musim tanam dengan proses cepat dan bunga kompetitif. Tanpa agunan hingga Rp 50 juta.</p>
+          <ul class="service-features">
+            <li>Proses 3 hari kerja</li>
+            <li>Bunga mulai 0,8%/bulan</li>
+            <li>Tenor hingga 18 bulan</li>
+          </ul>
+        </div>
+        <div class="service-card service-card--featured">
+          <div class="featured-badge">Terpopuler</div>
+          <div class="service-icon">🏡</div>
+          <h3>KPR Lahan Pertanian</h3>
+          <p>Wujudkan impian memiliki lahan pertanian sendiri dengan skema cicilan yang disesuaikan dengan siklus panen.</p>
+          <ul class="service-features">
+            <li>Uang muka mulai 10%</li>
+            <li>Tenor hingga 20 tahun</li>
+            <li>Cicilan fleksibel per panen</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚜</div>
+          <h3>Kredit Alat & Mesin</h3>
+          <p>Tingkatkan produktivitas dengan alat dan mesin pertanian modern melalui skema leasing yang menguntungkan.</p>
+          <ul class="service-features">
+            <li>Proses cepat 5 hari</li>
+            <li>DP mulai 15%</li>
+            <li>Tenor hingga 5 tahun</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛡️</div>
+          <h3>Asuransi Pertanian</h3>
+          <p>Lindungi investasi pertanian Anda dari risiko gagal panen, bencana alam, dan fluktuasi harga komoditas.</p>
+          <ul class="service-features">
+            <li>Premi mulai Rp 150.000</li>
+            <li>Klaim mudah & cepat</li>
+            <li>Cakupan nasional</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KALKULATOR PINJAMAN ===== -->
+  <section class="section section--alt" id="kalkulator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simulasi</span>
+        <h2 class="section-title">Kalkulator Pinjaman</h2>
+        <p class="section-desc">Hitung estimasi cicilan dan total pembayaran sebelum mengajukan pinjaman.</p>
+      </div>
+      <div class="calculator-wrapper">
+        <div class="calculator-form">
+          <div class="form-group">
+            <label for="loan-amount">Jumlah Pinjaman</label>
+            <div class="input-wrap">
+              <span class="input-prefix">Rp</span>
+              <input type="number" id="loan-amount" placeholder="10.000.000" min="1000000" max="5000000000" value="50000000">
+            </div>
+            <div class="range-info">
+              <span>Rp 1 Juta</span>
+              <span>Rp 5 Miliar</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="loan-tenor">Tenor (bulan)</label>
+            <div class="tenor-grid">
+              <button type="button" class="tenor-btn active" data-value="6">6 bln</button>
+              <button type="button" class="tenor-btn" data-value="12">12 bln</button>
+              <button type="button" class="tenor-btn" data-value="18">18 bln</button>
+              <button type="button" class="tenor-btn" data-value="24">24 bln</button>
+              <button type="button" class="tenor-btn" data-value="36">36 bln</button>
+              <button type="button" class="tenor-btn" data-value="60">60 bln</button>
+            </div>
+            <input type="hidden" id="loan-tenor" value="6">
+          </div>
+          <div class="form-group">
+            <label for="loan-type">Jenis Produk</label>
+            <select id="loan-type">
+              <option value="0.8">Modal Tani (0,8%/bln)</option>
+              <option value="0.9">Kredit Alat & Mesin (0,9%/bln)</option>
+              <option value="0.6">KPR Lahan Pertanian (0,6%/bln)</option>
+              <option value="0.75">Pinjaman Umum (0,75%/bln)</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary btn-full" id="btn-calculate">Hitung Cicilan</button>
+        </div>
+        <div class="calculator-result" id="calc-result">
+          <div class="result-placeholder">
+            <span class="result-placeholder-icon">📊</span>
+            <p>Isi form di samping dan klik <strong>Hitung Cicilan</strong> untuk melihat simulasi.</p>
+          </div>
+          <div class="result-content hidden">
+            <h3 class="result-title">Hasil Simulasi</h3>
+            <div class="result-row">
+              <span>Cicilan per Bulan</span>
+              <strong id="monthly-payment" class="result-highlight">—</strong>
+            </div>
+            <div class="result-row">
+              <span>Total Pembayaran</span>
+              <strong id="total-payment">—</strong>
+            </div>
+            <div class="result-row">
+              <span>Total Bunga</span>
+              <strong id="total-interest">—</strong>
+            </div>
+            <div class="result-row">
+              <span>Suku Bunga</span>
+              <strong id="interest-rate">—</strong>
+            </div>
+            <div class="result-row">
+              <span>Tenor</span>
+              <strong id="result-tenor">—</strong>
+            </div>
+            <div class="result-note">
+              ⚠️ Simulasi ini bersifat perkiraan. Angka final ditentukan saat proses pengajuan resmi.
+            </div>
+            <a href="#kontak" class="btn btn-primary btn-full result-cta">Ajukan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MITRA BANK TANI ===== -->
+  <section class="section" id="mitra">
+    <div class="container">
+      <div class="mitra-wrapper">
+        <div class="mitra-content">
+          <span class="section-tag">Kemitraan Resmi</span>
+          <h2 class="section-title" style="text-align:left; max-width:100%;">Bermitra dengan<br><span class="highlight">Bank Tani</span></h2>
+          <p class="mitra-desc">
+            Amerta Group menjalin kemitraan strategis dengan Bank Tani untuk memberikan layanan keuangan yang lebih luas, lebih terpercaya, dan lebih mudah diakses oleh seluruh petani Indonesia.
+          </p>
+          <div class="mitra-benefits">
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <div>
+                <strong>Jaringan ATM & Cabang Luas</strong>
+                <p>Lebih dari 2.500 titik layanan di seluruh Indonesia</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <div>
+                <strong>Pencairan Dana Langsung ke Rekening</strong>
+                <p>Dana cair ke rekening Bank Tani dalam 1x24 jam</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <div>
+                <strong>Diawasi OJK & BI</strong>
+                <p>Lembaga keuangan resmi, terdaftar dan diawasi regulasi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mitra-visual">
+          <div class="mitra-card">
+            <div class="mitra-logo-wrap">
+              <div class="mitra-logo amerta-logo">◈ Amerta Group</div>
+              <div class="mitra-plus">×</div>
+              <div class="mitra-logo bank-logo">🌿 Bank Tani</div>
+            </div>
+            <p class="mitra-tagline">"Bersama mendorong kemajuan<br>pertanian Indonesia"</p>
+            <div class="mitra-stats-grid">
+              <div class="mitra-stat">
+                <span>Rp 2,4 T+</span>
+                <small>Total Pinjaman Disalurkan</small>
+              </div>
+              <div class="mitra-stat">
+                <span>34 Provinsi</span>
+                <small>Jangkauan Layanan</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section class="section section--alt" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hubungi Kami</span>
+        <h2 class="section-title">Konsultasi Gratis</h2>
+        <p class="section-desc">Tim kami siap membantu Anda menemukan produk keuangan yang paling sesuai dengan kebutuhan.</p>
+      </div>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-name">Nama Lengkap</label>
+              <input type="text" id="c-name" placeholder="Budi Santoso" required>
+            </div>
+            <div class="form-group">
+              <label for="c-phone">No. WhatsApp / Telepon</label>
+              <input type="tel" id="c-phone" placeholder="08xxxxxxxxxx" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-product">Produk yang Diminati</label>
+            <select id="c-product">
+              <option value="">-- Pilih Produk --</option>
+              <option>Modal Tani</option>
+              <option>KPR Lahan Pertanian</option>
+              <option>Kredit Alat & Mesin</option>
+              <option>Asuransi Pertanian</option>
+              <option>Konsultasi Umum</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Pesan / Pertanyaan</label>
+            <textarea id="c-message" placeholder="Tuliskan pertanyaan atau kebutuhan Anda..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="btn-submit">
+            <span id="btn-submit-text">Kirim Pesan</span>
+          </button>
+          <div id="form-success" class="form-success hidden">
+            ✅ Pesan berhasil dikirim! Tim kami akan menghubungi Anda dalam 1x24 jam.
+          </div>
+        </form>
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>Informasi Kontak</h3>
+            <div class="info-item">
+              <span class="info-icon">📞</span>
+              <div>
+                <strong>Telepon / WA</strong>
+                <a href="tel:+622112345678">+62 21 1234-5678</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@amertaGROUP.co.id">info@amertaGROUP.co.id</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Kantor Pusat</strong>
+                <p>Jl. Sudirman Kav. 52, Jakarta Selatan 12190</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🕐</span>
+              <div>
+                <strong>Jam Operasional</strong>
+                <p>Senin – Jumat: 08.00 – 17.00 WIB<br>Sabtu: 08.00 – 12.00 WIB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-icon">◈</span>
+          <span class="logo-text">Amerta<strong>Group</strong></span>
+          <p>Solusi keuangan terpercaya<br>untuk pertanian Indonesia.</p>
+        </div>
+        <div class="footer-links-group">
+          <strong>Layanan</strong>
+          <a href="#layanan">Modal Tani</a>
+          <a href="#layanan">KPR Lahan</a>
+          <a href="#layanan">Kredit Alat</a>
+          <a href="#layanan">Asuransi</a>
+        </div>
+        <div class="footer-links-group">
+          <strong>Perusahaan</strong>
+          <a href="#mitra">Tentang Kami</a>
+          <a href="#mitra">Kemitraan Bank Tani</a>
+          <a href="#kontak">Karir</a>
+          <a href="#kontak">Hubungi Kami</a>
+        </div>
+        <div class="footer-links-group">
+          <strong>Legal</strong>
+          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Regulasi OJK</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Amerta Group. Terdaftar dan Diawasi oleh <strong>OJK</strong> & <strong>Bank Indonesia</strong>.</p>
+        <p>Mitra resmi <strong>Bank Tani</strong>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
